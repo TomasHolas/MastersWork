@@ -1,23 +1,27 @@
-========================================================================
-			Contents of the folder				
-========================================================================
-readme.txt................................................. The file with media contents description
-src\code................................................... The directory of source codes of implementation
-src\data................................................... The directory of datasets
-text\master-thesis-holastom.pdf ........................... Text in PDF format
-text\master-thesis-holastom ............................... The directory of LATEX source codes of the thesis
+# Contents of the folder		
 
-========================================================================
-			        Libraries
-========================================================================
-Confident_ellipse is needed for proper plotting functionality.
-GOSPA is needed for evaluation metrics.
+---
+
+PHD.py.................................................... Class of PHD Filter
+
+main.py................................................... Main, Animating Function, Result, Variables for run
+
+---
+
+# Libraries
+
+Confident_ellipse is needed for proper plotting functionality. Available from: https://matplotlib.org/stable/gallery/statistics/confidence_ellipse.html
+
+GOSPA is needed for evaluation metrics. Available from: https://github.com/ewilthil/gospapy
 
 Standard python libraries:
 
-numpy, pandas, matplotlib, cartopy, scipy, copy, collections, operator, math
-
-
-confidence_ellipse: https://matplotlib.org/stable/gallery/statistics/confidence_ellipse.html
-GOSPA: https://github.com/ewilthil/gospapy
-
+* numpy
+* pandas
+* matplotlib
+* cartopy
+* scipy
+* copy
+* collections
+* operator
+* math
